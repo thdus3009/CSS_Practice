@@ -72,6 +72,7 @@
 		animation-duration: 1s; /* 애니메이션 실행하는데 걸리는 시간 */
 	}
 	
+	/* @keyframees : 애니메이션의 중간절차를 조절할 수 있게 해준다. */
 	@keyframes ani {
 		0% {
 			width: 0;

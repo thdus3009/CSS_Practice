@@ -43,7 +43,7 @@ a {
 }
 
 .sns a { /* 동그라미 */
-	/* border: 5px solid white; */
+	border: 5px solid white;
 	display: inline-block; /* a태그는 inline요소여서 크기값을 줄수없다 > inline-block으로 변경 */
 	width: 80px;
 	height: 80px;
@@ -57,7 +57,7 @@ a {
 }
 
 
-/*  .sns a:before {
+ .sns a:before {
 	content :"";
 	position: absolute;
 	width : 105%;
@@ -66,64 +66,26 @@ a {
 	left:-2px;
 	background-color: white;
 	transition : 0.5s;
-}  */
- .sns a:nth-child(1):before {
-	content :"";
-	position: absolute;
-	width : 105%;
-	height: 0%;
-	top:-2px;
-	left:-2px;
-	background-color: #3b5999;
-	transition : 0.5s;
-} 
- .sns a:nth-child(2):before {
-	content :"";
-	position: absolute;
-	width : 105%;
-	height: 0%;
-	top:-2px;
-	left:-2px;
-	background-color: #55acee;
-	transition : 0.5s;
-} 
- .sns a:nth-child(3):before {
-	content :"";
-	position: absolute;
-	width : 105%;
-	height: 0%;
-	top:-2px;
-	left:-2px;
-	background-color: #dd4b39;
-	transition : 0.5s;
-} 
- .sns a:nth-child(4):before {
-	content :"";
-	position: absolute;
-	width : 105%;
-	height: 0%;
-	top:-2px;
-	left:-2px;
-	background-color: #0077b5;
-	transition : 0.5s;
-} 
- .sns a:nth-child(5):before {
-	content :"";
-	position: absolute;
-	width : 105%;
-	height: 0%;
-	top:-2px;
-	left:-2px;
-	background: linear-gradient(#744999,#e22484,#e8442f,#f0c441);
-	transition : 0.5s;
 } 
 	
  .sns a:hover:before {
-	height: 105%;
+	height: 0px;
 }	
 	
- .sns a {
- 	background-color: white;
+ .sns a:nth-child(1) {
+ 	background-color: #3b5999;
+ }
+ .sns a:nth-child(2) {
+ 	background-color: #55acee;
+ }
+ .sns a:nth-child(3) {
+ 	background-color: #dd4b39;
+ }
+ .sns a:nth-child(4) {
+ 	background-color: #0077b5;
+ }
+  .sns a:nth-child(5) {
+ 	background: linear-gradient(#744999,#e22484,#e8442f,#f0c441);
  }
  	
 /* 폰트부분 */

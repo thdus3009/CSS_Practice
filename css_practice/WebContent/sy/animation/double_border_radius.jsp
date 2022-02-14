@@ -107,7 +107,7 @@
 				We always challenge and try new things.
 			</p>
 			<br><br>
-			<a href="#">Read More</a>
+			<a href="javascript:void(0)">Read More</a>
 		</div>
 	</div>
 </body>
