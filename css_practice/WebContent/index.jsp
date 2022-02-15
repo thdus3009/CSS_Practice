@@ -80,5 +80,7 @@
 	<a href="./animation/tab_menu4.jsp"><span>17-4. 탭 메뉴 콘텐츠 만들기5 (slide효과2) ★</span></a>
 	</div>
 	
+	<h5>- slider</h5>
+	<a href="./animation/slider_1.jsp"><span>18-1. 슬라이더1</span></a>
 </body>
 </html>

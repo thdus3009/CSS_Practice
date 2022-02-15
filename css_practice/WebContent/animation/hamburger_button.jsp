@@ -19,7 +19,7 @@
 	}
 	
 	input[id=trigger] {
-		/* display: none; */
+		 display: none; 
 	}
 	
  	label[for=trigger] {
